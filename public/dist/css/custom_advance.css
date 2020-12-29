@@ -1,0 +1,310 @@
+/** Client Detail Modal **/
+
+.details-button{
+    float:right;background-color:rgb(40,153,255);border:1px solid rgb(40,153,255);
+}
+.uk-icon-close-modal{
+    font-weight:normal;font-size:20px;color:white;
+}
+.cdm-table{
+    margin-left:auto; margin-right:auto; width:95%;table-layout: auto;color:black;
+}
+.cdm-td-left{
+    font-weight:bold;padding:5px 10px 5px 10px;border-right: 2px solid white;background-color:rgb(219,219,219);border-right-color:rgb(219,219,219);
+}
+.cdm-td-right{
+    padding:5px 10px 5px 30px;background-color:white;
+}
+.cdm-input{
+    border:none;color:black;background-color:white;
+}
+.table-edit-delete{
+    margin-left:auto; margin-right:auto; width:95%;table-layout: auto;color:black;
+}
+.tr-edit-delete{
+    background-color:rgb(59,59,59);border-collapse: collapse;
+}
+.td-edit-delete{
+    color:white;
+}
+.span1-edit-delete{
+    float:right;padding:5px 20px 5px 0px;
+}
+.span2-edit-delete{
+    float:right;padding:5px 35px 5px 0px;
+}
+.pencil-edit-delete{
+    float:right;padding-right:5px;font-size:16px;padding-top:7px;
+}
+.close-edit-delete{
+    padding-left:10px;font-size:16px;padding-top:7px;
+}
+.api-accounts{
+    background-color:white;border:1px solid white;padding:5px 15px 5px 15px;color:black;border-radius: 8px;
+}
+
+/** Edit Client Detail Modal **/
+
+.edm-td-left{
+    font-weight:bold;padding:5px 10px 5px 10px;border-right: 2px solid white;background-color:rgb(219,219,219);border-right-color:rgb(219,219,219);
+}
+.edm-td-right{
+    padding:2px 28px 2px 5px;background-color:white;
+}
+.edm-td-right-select{
+    padding:2px 8px 2px 5px;background-color:white;
+}
+.edm-input{
+    padding:2px 0px 2px 18px;width:100%;color:black;background-color:white;border:1px solid rgb(199,199,199);
+}
+.edm-input-2{
+    width:100%;color:black;background-color:white;border:2px solid rgb(211,211,211);
+}
+
+.edm-select{
+    padding-left:14px;height:22px;background-color:white;border-color:rgb(199,199,199);color:black;
+}
+
+/** Billing Option Modal **/
+
+.bo-table{
+    margin-left:auto; margin-right:auto; width:95%;table-layout: auto;color:black;
+}
+.bo-tr{
+    background-color:(40,153,255);border-collapse: collapse;
+}
+
+.bo-cn-td{
+    background-color:(40,153,255);border-collapse: collapse;
+}
+.bo-cn-span{
+    float:left;padding:5px 0px 5px 0px;
+}
+.bo-cn-input{
+    height:25px;padding-left:20px;width:90%;color:black;background-color:white;border:1px solid rgb(199,199,199);
+}
+.bo-cn-input-no-width{
+    margin-top:9px;height:22px;background-color:(40,153,255);border-collapse: collapse;width:200px;
+}
+.bo-cn-input-no-width2{
+    margin-bottom:6px;height:22px;background-color:(40,153,255);border-collapse: collapse;width:200px;
+}
+.bo-cn-input-no-width3{
+    margin-bottom:10px;height:28px;background-color:rgb(235,235,235);border:2px solid rgb(211,211,211);border-collapse: collapse;width:200px;
+}
+
+.bo-cn-input-no-width4{
+    margin-bottom:10px;height:28px;background-color:white;border:2px solid rgb(211,211,211);border-collapse: collapse;
+}
+
+.bo-cn-input-1-1{
+    height:28px;width:100%;color:black;background-color:white;border:1px solid rgb(199,199,199);
+}
+
+.bo-cn-input-requested{
+    height:20px;width:60%;color:black;background-color:rgb(235,235,235);border:2px solid rgb(211,211,211);margin-bottom:10px;
+}
+
+.bo-cn-input-requested-1-1{
+    height:20px;width:100%;color:black;background-color:white;border:2px solid rgb(211,211,211);margin-bottom:10px;
+}
+
+.bo-ro-span{
+    float:left;padding:5px 20px 5px 0px;
+}
+.bo-ro-span-bold{
+    float:left;padding:5px 20px 5px 0px;font-weight: bold;
+}
+.bo-nbs-input{
+    padding:5px 0px 5px 10px;
+}
+.bo-nbs-input-2{
+    height:20px;margin-left:3px;width:100%;color:black;background-color:white;border:1px solid rgb(199,199,199);
+}
+.bo-3-input{
+    padding:5px 0px 5px 10px;
+}
+.bo-cancel{
+    background-color:white;border:1px solid white;padding:5px 10px 5px 10px;color:black;border-radius: 8px;margin-right:10px;
+}
+.bo-save{
+    background-color:white;border:1px solid white;padding:5px 10px 5px 10px;color:black;border-radius: 8px;
+}
+
+.bo-cancel-cursor{
+    cursor:pointer;background-color:white;border:1px solid white;padding:5px 10px 5px 10px;color:black;border-radius: 8px;margin-right:10px;
+}
+.bo-save-cursor{
+    cursor:pointer;background-color:white;border:1px solid white;padding:5px 10px 5px 10px;color:black;border-radius: 8px;
+}
+
+/** Client Index.blade.php **/
+
+.c-div-1{
+    padding-top:20px;
+}
+.c-div-2{
+    padding:18px 30px 1px 40px;vertical-align:center;background-color: #2899ff;
+}
+.c-div-2-big{
+    padding:50px 30px 5px 40px;vertical-align:center;background-color: #2899ff;
+}
+.arrow-down{
+    float:right;padding-right:20px;font-size:24px;
+}
+.form-index{
+    margin-right:20px;display:none;
+}
+.form-index-show{
+    margin-right:20px;
+}
+.h-header{
+    font-weight:bold;color:white;
+}
+.c-input-div-1{
+    padding-left:0px;color:white
+}
+.c-input-1{
+    border-color:rgb(9,136,255);color:white;width:100%;
+}
+.c-select-1{
+    height:280px;background-color:rgb(9,136,255);border-color:rgb(9,136,255);color:white;
+}
+.c-table-1{
+    table-layout: auto;color:black;
+}
+.c-thead-1{
+    background-color:rgb(204,204,204);font-weight:bold;
+}
+.c-th-td{
+    border-right: 2px solid white;
+}
+.c-img{
+    width:25px;height:25px;
+}
+.c-td-action{
+    text-align:center;
+}
+
+/** 
+ * Customize Radio Button
+ */
+
+input[type='radio']:after {
+    width: 9px;
+    height: 9px;
+    top: -4px;
+    left: -2px;
+    border-radius: 15px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 8px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 9px;
+    height: 9px;
+    border-radius: 15px;
+    top: -4px;
+    left: -2px;
+    position: relative;
+    background-color: black;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 8px solid white;
+}
+
+.radio-label{
+    padding-left:15px;
+}
+input[type=checkbox] {
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-o-appearance:none;
+	outline: none;
+	content: none;	
+}
+
+input[type=checkbox]:before {
+	font-family: "FontAwesome";
+    content: "\2713";
+    text-align: center;
+    font-size: 15px;
+    color: transparent !important;
+    background: white;
+    display: block;
+    border: 1px solid white;
+
+    width: 1.25em; height: 1.25em;
+}
+
+input[type=checkbox]:checked:before {
+
+	color: black !important;
+}
+
+.status-filter{
+    padding:14.5px;background-color:rgb(138,138,138);border:1px solid rgb(138,138,138);border-radius:3px;color:white;width:240px;
+}
+
+.status-filter::after {
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+  }
+
+.table-permitted-ip tr:nth-child(odd){
+    background:rgb(224,224,224);
+}
+.table-permitted-ip tr:nth-child(even){
+    background:rgb(233,233,233);
+}
+
+input[type="text"]:disabled{background-color:rgb(224,224,224);}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99999;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 10;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
