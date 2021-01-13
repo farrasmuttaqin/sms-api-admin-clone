@@ -76,11 +76,11 @@ Invoice Management allows the system user to set an invoice profile based on the
 - Invoice Profile Tab allows user to view existing invoice profile and create a new profile. It displays the existing invoice profiles and allows user to edit the existing profiles, create invoices and views previous invoice informations.
 - Invoice Settings Tab allows user to create the default content of the invoice document which the user could download as PDF later.
 
-![Cobrander Administration Page](https://raw.githubusercontent.com/farrasmuttaqin/sms-api-admin-clone/Task-2-Action_to_push_sms_api_admin/screenshoot/cobrander_management.png)
-<p align="center">Figure 7: Cobrander Administration Page</p>
-
 ![Agent Administration Page](https://raw.githubusercontent.com/farrasmuttaqin/sms-api-admin-clone/Task-2-Action_to_push_sms_api_admin/screenshoot/agent_management.png)
-<p align="center">Figure 8: Agent Administration Page</p>
+<p align="center">Figure 7: Agent Administration Page</p>
+
+![Cobrander Administration Page](https://raw.githubusercontent.com/farrasmuttaqin/sms-api-admin-clone/Task-2-Action_to_push_sms_api_admin/screenshoot/cobrander_management.png)
+<p align="center">Figure 8: Cobrander Administration Page</p>
 
 ## Author
 Hi there , i'm <a href="https://github.com/farrasmuttaqin/"> Muhammad Farras Muttaqin </a>
