@@ -24,6 +24,11 @@ composer install
 
 Login page used to sign in into the system, only Admin have credentials to login.
 
+![Dashboard Page](https://raw.githubusercontent.com/farrasmuttaqin/sms-api-admin-clone/Task-2-Action_to_push_sms_api_admin/screenshoot/dashboard.png)
+<p align="center">Figure 1: Dashboard Page</p>
+
+Dashboard page used to display a collection of messages that exist in the current month with pie diagram. Those collection of messages packed then matched with each operator connected to the Cobrander, then the Cobrander is connected to the Agent.
+
 ![Client Management Page](https://raw.githubusercontent.com/farrasmuttaqin/sms-api-admin-clone/Task-2-Action_to_push_sms_api_admin/screenshoot/client_management.png)
 <p align="center">Figure 2: Client Management Page</p>
 
@@ -79,8 +84,12 @@ Invoice Management allows the system user to set an invoice profile based on the
 ![Agent Administration Page](https://raw.githubusercontent.com/farrasmuttaqin/sms-api-admin-clone/Task-2-Action_to_push_sms_api_admin/screenshoot/agent_management.png)
 <p align="center">Figure 7: Agent Administration Page</p>
 
+Agent is a component inside the SMS Messaging system that is used to deliver messages to the telecommunication providers. Agent SMS delivers the messages in XML or plain text form through HTTP protocol. Provider will response the delivered message by sending message status information to the SMS Messaging system to be handled by the PHP Delivery Report service.
+
 ![Cobrander Administration Page](https://raw.githubusercontent.com/farrasmuttaqin/sms-api-admin-clone/Task-2-Action_to_push_sms_api_admin/screenshoot/cobrander_management.png)
 <p align="center">Figure 8: Cobrander Administration Page</p>
+
+Cobrander ID is a string used to determine routing of an SMS. Before SMS API V2 launch to send SMS, that Java apps must first look for cobrander ID specified for that particular combination sender ID and user ID. If found this value must be used as the Cobrander ID in the Send Messages Command.
 
 ## Author
 Hi there , i'm <a href="https://github.com/farrasmuttaqin/"> Muhammad Farras Muttaqin </a>
